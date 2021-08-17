@@ -11,6 +11,10 @@
 		4E71621B26CBD09900034196 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E71621A26CBD09900034196 /* ContentView.swift */; };
 		4E71621D26CBD09A00034196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E71621C26CBD09A00034196 /* Assets.xcassets */; };
 		4E71622026CBD09A00034196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E71621F26CBD09A00034196 /* Preview Assets.xcassets */; };
+		4E71622926CBD24D00034196 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E71622826CBD24D00034196 /* Home.swift */; };
+		4EF7262C26CBD79700AB4B07 /* StickerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7262B26CBD79700AB4B07 /* StickerCategory.swift */; };
+		4EF7262F26CBD87F00AB4B07 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7262E26CBD87F00AB4B07 /* HomeViewModel.swift */; };
+		4EF7263126CBDD4200AB4B07 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF7263026CBDD4200AB4B07 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		4E71621C26CBD09A00034196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E71621F26CBD09A00034196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E71622126CBD09A00034196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E71622826CBD24D00034196 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4EF7262B26CBD79700AB4B07 /* StickerCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerCategory.swift; sourceTree = "<group>"; };
+		4EF7262E26CBD87F00AB4B07 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4EF7263026CBDD4200AB4B07 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +60,9 @@
 		4E71621726CBD09900034196 /* StickXSport */ = {
 			isa = PBXGroup;
 			children = (
+				4EF7262D26CBD87400AB4B07 /* ViewModels */,
+				4EF7262A26CBD78800AB4B07 /* Models */,
+				4E71622726CBD24600034196 /* Views */,
 				4E71621826CBD09900034196 /* StickXSportApp.swift */,
 				4E71621A26CBD09900034196 /* ContentView.swift */,
 				4E71621C26CBD09A00034196 /* Assets.xcassets */,
@@ -67,6 +78,31 @@
 				4E71621F26CBD09A00034196 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E71622726CBD24600034196 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E71622826CBD24D00034196 /* Home.swift */,
+				4EF7263026CBDD4200AB4B07 /* SwiftUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4EF7262A26CBD78800AB4B07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EF7262B26CBD79700AB4B07 /* StickerCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4EF7262D26CBD87400AB4B07 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4EF7262E26CBD87F00AB4B07 /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E71621B26CBD09900034196 /* ContentView.swift in Sources */,
+				4E71622926CBD24D00034196 /* Home.swift in Sources */,
+				4EF7263126CBDD4200AB4B07 /* SwiftUIView.swift in Sources */,
 				4E71621926CBD09900034196 /* StickXSportApp.swift in Sources */,
+				4EF7262F26CBD87F00AB4B07 /* HomeViewModel.swift in Sources */,
+				4EF7262C26CBD79700AB4B07 /* StickerCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
