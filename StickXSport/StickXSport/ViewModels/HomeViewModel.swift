@@ -7,7 +7,6 @@
 
 import Foundation
 
-//class HomeViewModel: ObservableObject{
-//    @Published var categories: [StickerCategory]
-//    
-//}
+class HomeViewModel: ObservableObject{
+    @Published var category: [StickerCategory] = stickerCategoriesExamples
+}
